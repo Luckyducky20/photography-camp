@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>
+        Registration
+    </title>
+    <header class="Page_title font center">
+        Registration
+    </header>
+    <body background="display_photos/background.JPG">
+        <div class="container">
+            <div class="slight_indent">
+                <form type="register_form" action="index.html" >
+                    
+                    <div class="up_space middle_text">
+                        <label>
+                            First name:
+                        </label>
+                        <input type="text" name="firstname">
+                    </div>
+
+                    <div class="up_space middle_text">
+                        <label>
+                            Last name:
+                        </label>
+                        <input type="text" name="lastname">
+                    </div>
+                   
+                    <div>
+                        <label class="middle_text">
+                            Age:
+                        </label>
+                        <select name="age" style="font-size: 1rem;">
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="middle_text">
+                            What are you most excited for:
+                        </label>
+                        <ol>
+                            <option>Movies</option>
+                            <option>te</option>
+                            
+
+
+
+                        </ol>
+                            
+                            
+                            
+                        
+                    </div>
+                    <input type="password" placeholder="password">
+                    <input type="email" placeholder="email">
+                    <input type="button" formaction="index.html">
+                    <p>
+                        test list:
+                        <input type="text" list="test" name="TIAtest">
+
+                    </p>
+                    <datalist id="test">
+                        <option>Test option 1</option>
+                        <option>Test option 2</option>
+                    </datalist>
+                    <input type="submit" required>
+                    <input type="reset" value="cancel">
+                    
+                    <label>
+                        <input type="text" placeholder="name" name="firstname">
+                    </label>
+                    <label>
+                        <input type="tel" placeholder="###-###-####" name="phonenumber">
+                    </label>
+                    <input type="text" placeholder="name" name="firstname">
+                    <input type="tel" placeholder="###-###-####" name="phonenumber">
+
+                    <div class="container">
+                        
+                        <p class="slight_indent up_space">
+                            <label class="middle_text">Additional info:</label>
+                            <br>
+                            <textarea name="additional_info" rows="10rem" cols="50rem" maxlength="2000" style="resize: none;" placeholder="comments/concerns"></textarea>
+                        </p>
+
+                        <hr class="slight_indent">
+
+                        <div class="center up_space">
+                            <input type="submit" value="Register Now">
+                            <input type="reset" value="Cancel">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<style>
+    body {
+        background-size: cover;
+        margin: 5%;
+    }
+    .Page_title {
+        background-color: rgba(110, 110, 110, 0.151);
+        border-radius: 1rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.274), 0px 0px 10px rgba(255, 255, 255, 0.438);
+        font-size: 5rem;
+    }
+    .container {
+        background-color: rgba(0,0,0,0.281);
+        border-radius: 2rem;
+        padding-bottom: 3rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.274), 0px 0px 10px rgba(255, 255, 255, 0.178);
+    }
+    .middle_text {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        font-size: 1.5rem;
+        
+        background-clip: border-box;
+        border-radius: 1rem;
+        margin: 3rem;
+        padding-top: 2rem;
+    }
+    .slight_indent {
+        margin:3%;
+    }
+    .font {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .center {
+        text-align: center;
+    }
+    .up_space {
+        padding-top: 2rem;
+    }
+    .down_space {
+        padding-bottom: 2rem;
+    }
+    .left_space {
+        padding-left: 2rem;
+    }
+    .list_no_nums {
+        list-style: none;
+    }
+</style>
