@@ -2,20 +2,23 @@
 <html>
     <meta charset="utf-8">
     <title>
-        Registration
-    </title>
+        Registration 
+    </title><!--Title of the page-->
     <header class="Page_title font center">
-        Registration
+        Registration <!--Header for the registration page-->
     </header>
     <body background="display_photos/background.JPG">
         <div class="container">
             <div class="slight_indent">
-                <form type="register_form" action="index.html" >
+                <form type="register_form" action="index.html" > <!--Making a form that has all the inputs for the camper and gaurdians-->
 
                     <br>
                     <br>
                     <hr>
-                    <div class="head">
+                    <p class="center head">
+                        Camper:
+                    </p>
+                    <div class="head"> <!--Gets the campers first name-->
                         <label>
                             First name:
                         </label>
@@ -23,7 +26,7 @@
                     </div>
 
 
-                    <div class="head">
+                    <div class="head"> <!--gets the campers last name-->
                         <label>
                             Last name:
                         </label>
@@ -31,7 +34,7 @@
                     </div>
                    
 
-                    <div>
+                    <div> <!--Gets the campers age-->
                         <label class="head">
                             Age:
                         </label>
@@ -51,7 +54,7 @@
                     <br>
 
 
-                    <div style="padding-top: 2rem;">
+                    <div style="padding-top: 2rem;"> <!--learns about the camper and what their interest are-->
                         <label class="head">
                             What are you most excited for:
                         </label>
@@ -79,8 +82,8 @@
                     <br>
 
 
-                    <div>
-                        <label class="head">Do you have any prior experience:</label>
+                    <div> <!--learns what the campers prior experience with photoshop or photography-->
+                        <label class="head">Do you have any prior experience with photograpy or photoshop:</label>
                         <ol style="padding-left: 5rem;">
                             <li class="list_no_nums middle_text_slim">
                                 <input type="radio" name="experience" value="Yes" required>
@@ -96,7 +99,7 @@
                         <br>
 
 
-                        <div>
+                        <div> <!--asks the camper for what kind of experience they have prior-->
                             <label class="head">If you answered yes, please list experience:</label>
                             <br>
                             <p style="padding-left: 5rem;">
@@ -106,8 +109,8 @@
                     </div>
 
 
-                    <div>
-                        <label class="head">What types of photography are you most excited about?</label>
+                    <div> <!-- asks the camper what kind of photography are they most interested in trying-->
+                        <label class="head">What types of photography are you wanting to try?</label>
                         <ol style="padding-left: 5rem;">
                             <li class="list_no_nums middle_text_slim">
                                 <input type="checkbox" name="excitements" value="Portrait">
@@ -129,7 +132,7 @@
                     </div>
 
 
-                    <div>
+                    <div> <!--gets the shirt size from the camper for a camp t shirt-->
                         <label class="head">What size shirt would you like:</label>
                         <ol class="list_no_nums middle_text_slim" style="padding-left: 5rem;">
                             <li>
@@ -158,9 +161,11 @@
 
                     <br>
                     <hr>
+                    <p class="head center">
+                        Guardian:
+                    </p>
 
-
-                    <div>
+                    <div> <!-- asks the parent if there is any concerns to be known of-->
                         <label class="head">Is there any allergies, health conditions or concerns we should be aware of:</label>
                         <br>
                         <p style="padding-left: 5rem;">
@@ -172,7 +177,7 @@
                     <br>
 
 
-                    <div>
+                    <div> <!-- asks the camper if there is anything that they would like to request for accomodations-->
                         <label class="head">Is there any accomodations you would like:</label>
                         <br>
                         <p style="padding-left: 5rem;">
@@ -184,13 +189,13 @@
                     <hr>
 
 
-                    <div>
+                    <div> <!--gets a picture of the camper for identification purposes-->
                         <label for="Camper_picture" class="head">Picture of camper for identification purposes:</label>
                         <input type="file" name="Camper_Identification" id="Camper_picture" class="middle_text" required aria-checked="false">
                     </div>
 
 
-                    <div>
+                    <div> <!--asks when the camp should expect the kid to be dropped off-->
                         <label for="DropTime" class="head">Drop off time:</label>
                         <input type="time" name="CamperDropOffTime" id="DropTime" required aria-checked="false">
                     </div>
@@ -200,7 +205,7 @@
                     <br>
 
 
-                    <div>
+                    <div> <!--gets emergency contact info form the guardian-->
                         <label for="gaurdian" class="head">Emergency contact info:</label>
                         <br>
                         <ol style="padding-left: 5rem;">
@@ -227,7 +232,7 @@
                     <hr>
 
 
-                    <div class="container">
+                    <div class="container"> <!-- any additional information that the parents would like to share to the camp or comment on-->
                         
                         <p class="slight_indent" style="padding-top: 2%;">
                             <label class="middle_text">Additional info:</label>
@@ -242,14 +247,16 @@
                             <input type="reset" value="Cancel">
                         </div>
                     </div>
-                    
+                    <div style="padding-top: 5rem;" class="center">
+                        <a href="index.html" class="head" >Home Page</a> 
+                    </div>
                 </form>
             </div>
         </div>
     </body>
 </html>
 
-
+<!--this is my style sheet to organize the webpage-->
 <style>
     body {
         background-size: cover;
